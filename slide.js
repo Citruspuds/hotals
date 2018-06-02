@@ -10,7 +10,7 @@ var i = 0; // Start point
 
 	// Change Image
 	function changeImg(){
-		document.slide.src = images[i];
+		document.getElementById("slide").src = images[i];
 
 		if(i < images.length - 1){
 			i++;
